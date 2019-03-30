@@ -37,16 +37,6 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-/*
-        IsinmaEkraniFragment isinmaObject=new IsinmaEkraniFragment();
-        getSupportFragmentManager().beginTransaction()
-                .setCustomAnimations(R.anim.enter,R.anim.exit,R.anim.pop_enter, R.anim.pop_exit)
-                .replace(R.id.content_main,isinmaObject)
-                .addToBackStack(null)
-                .commit();
-*/
-
-
 
     }
 
