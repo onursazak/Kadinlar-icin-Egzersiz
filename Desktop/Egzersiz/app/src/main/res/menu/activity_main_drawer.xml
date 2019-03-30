@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group  android:checkableBehavior="single" >
+        <item android:title="Kişisel Veriler">
+        <item
+            android:id="@+id/IsinmaItem"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Isınma Hareketleri" />
+        <item
+            android:id="@+id/altVucutItem"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Alt Vücut Hareketleri" />
+        <item
+            android:id="@+id/ustVucutItem"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Üst Vücut Hareketleri" />
+
+        </item>
+    </group>
+
+    <item android:title="Notlar">
+        <menu>
+            <item
+                android:id="@+id/notlarimItem"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Notlarım" />
+        </menu>
+    </item>
+
+</menu>

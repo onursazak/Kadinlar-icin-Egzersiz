@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bearwalkrsz"
+        android:id="@+id/bearWalks_btn"
+        android:layout_alignTop="@+id/touchAndNap_btn"
+        android:layout_alignStart="@+id/plankShoulder_btn" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/halfsquatrsz"
+        android:id="@+id/halfSquatJab_btn"
+        android:layout_marginTop="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/touchandhoprsz"
+        android:id="@+id/touchAndNap_btn"
+        android:layout_below="@+id/halfSquatJab_btn"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="80dp" />
+
+    <TextView
+        android:text="Üst Vücut Hareketleri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/plankShoulder_btn"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView13"
+        android:textColor="#FF31429E"
+        android:textStyle="normal|italic"
+        android:textSize="18sp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/plankshoulderrsz"
+        android:id="@+id/plankShoulder_btn"
+        android:layout_marginLeft="28dp"
+        android:layout_alignTop="@+id/halfSquatJab_btn"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

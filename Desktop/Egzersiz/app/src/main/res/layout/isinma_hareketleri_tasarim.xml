@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:background="#ffffff">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/container"
+        tools:background="@android:color/white">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scroll_view"
+            >
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                app:srcCompat="@drawable/warmup"
+                android:id="@+id/imageView5"
+                android:adjustViewBounds="true"
+                android:background="@android:color/background_light" />
+        </ScrollView>
+
+        <Button
+            android:id="@+id/isinma_instructon_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="nasıl yapılır ?"
+            android:background="?attr/colorButtonNormal" />
+    </FrameLayout>
+
+</LinearLayout>

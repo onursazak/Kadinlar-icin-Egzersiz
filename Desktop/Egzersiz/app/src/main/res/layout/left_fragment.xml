@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/editTextBaslangicTarihi"
+        android:visibility="invisible"
+        android:hint="Tarih1" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/editTextBitisTarihi"
+        android:layout_gravity="center_horizontal"
+        android:visibility="invisible"
+        android:hint="Tarih2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tarih Ara"
+        android:id="@+id/buttonTarihAra"
+        android:visibility="invisible" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listViewNotlar" />
+
+    <Button
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:text="+"
+        android:id="@+id/buttonYeniNotEkle"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="30dp" />
+</LinearLayout>
