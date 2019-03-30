@@ -1,4 +1,4 @@
 # Kadinlar-icin-Egzersiz
 
 
-Kadınlar için geliştirdiğim yarım kalan android uygulaması.
+Kadınlar için geliştilmeye başlanmış ve yarım kalmış android uygulaması.
